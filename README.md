@@ -12,20 +12,20 @@
 - 文件组织
 .
 ├── rtl
-│   ├── define.v     // 宏定义       
-│   ├── pc_reg.v     // 程序计数器，对应取值阶段
-│   ├── id.v         // 指令解码
-│   ├── ex.v         // 指令执行
-│   ├── mem.v        // 数据内存访问
-│   ├── if_id.v      // 流水线寄存器
-│   ├── id_ex.v      
-│   ├── ex_mem.v
-│   ├── mem_wb.v
-│   ├── regfile.v    // 寄存器文件
-│   ├── hilo_reg.v   // hi/lo寄存器 
-│   ├── inst_rom.v   // 指令存储器
-│   ├── openmips.v   // 处理器部分顶层模块    
-│   ├── openmips_min_sopc // 顶层模块
+│   ├── define.v     // 宏定义         
+│   ├── pc_reg.v     // 程序计数器，对应取值阶段     
+│   ├── id.v         // 指令解码    
+│   ├── ex.v         // 指令执行     
+│   ├── mem.v        // 数据内存访问     
+│   ├── if_id.v      // 流水线寄存器    
+│   ├── id_ex.v         
+│   ├── ex_mem.v     
+│   ├── mem_wb.v     
+│   ├── regfile.v    // 寄存器文件     
+│   ├── hilo_reg.v   // hi/lo寄存器       
+│   ├── inst_rom.v   // 指令存储器      
+│   ├── openmips.v   // 处理器部分顶层模块        
+│   ├── openmips_min_sopc // 顶层模块      
 
 ---
 ### 1、流水线设计
