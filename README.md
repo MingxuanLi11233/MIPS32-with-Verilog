@@ -130,7 +130,7 @@ _start:
    movn $3,$4,$2          # $3 = 0xffff0000
 
    mthi $2                # hi = 0xffff0000
-   mtlo $1                # li = 0x00000000
+   mtlo $1                # lo = 0x00000000
 
    sll   $2,$2,8          # $2 = 0xffff0000 sll 8  = 0xff000000
    subu  $3,$3,$2         # $3 = 0x00ff0000
